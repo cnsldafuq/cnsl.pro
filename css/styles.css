@@ -1,0 +1,26 @@
+body {
+    font-family: "Moderustic", sans-serif;
+    color: white;
+}
+#frame {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+}
+.loadingScreen {
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 100vh;
+    background-color: #23153c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
