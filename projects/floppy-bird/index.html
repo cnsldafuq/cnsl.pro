@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floppy Bird</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden; /* Prevent scrolling */
+            background-color: black; /* Set a dark background */
+            display: flex;
+            justify-content: center; /* Center the game horizontally */
+            align-items: center; /* Center the game vertically */
+            height: 100vh; /* Full height of the viewport */
+        }
+        #game {
+            /* Set the dimensions dynamically in JavaScript */
+            display: block;
+            background-color: black; /* Match the background */
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container"></div>
+    
+    <script type="module" src="./game/main.js"></script>
+</body>
+</html>
